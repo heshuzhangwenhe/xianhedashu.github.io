@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>仙鹤大叔张文鹤的宝藏 - 科普文章</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .articles-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 2rem; }
+        .article-card { background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .article-header { padding: 1.5rem; border-bottom: 1px solid #eee; }
+        .article-content { padding: 1.5rem; }
+        .article-title { color: #2E7D32; margin-bottom: 0.5rem; }
+        .article-meta { display: flex; justify-content: space-between; color: #666; font-size: 0.9rem; margin-top: 1rem; }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <a href="../index.html" class="logo">仙鹤大叔</a>
+            <ul class="nav-menu">
+                <li><a href="../index.html#hero">首页</a></li>
+                <li><a href="../index.html#categories">作品分类</a></li>
+                <li><a href="videos.html">视频作品</a></li>
+                <li><a href="#">科普文章</a></li>
+                <li><a href="../index.html#about">关于我</a></li>
+            </ul>
+            <form class="search-box">
+                <input type="text" class="search-input" placeholder="搜索文章...">
+                <button type="submit" class="search-btn"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </nav>
+
+    <section class="container" style="padding: 3rem 0;">
+        <h1 style="text-align: center; color: #2E7D32; margin-bottom: 2rem;">我的科普文章</h1>
+        
+        <div class="articles-grid">
+            <div class="article-card">
+                <div class="article-header">
+                    <h3 class="article-title">均衡饮食的五大原则</h3>
+                    <p>掌握科学的饮食搭配方法，让每一餐都营养均衡。</p>
+                </div>
+                <div class="article-content">
+                    <p>详细介绍了蛋白质、碳水化合物、脂肪、维生素和矿物质的合理摄入比例...</p>
+                    <div class="article-meta">
+                        <span>阅读时间: 5分钟</span>
+                        <span>2026-03-05</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="article-card">
+                <div class="article-header">
+                    <h3 class="article-title">运动后的恢复指南</h3>
+                    <p>如何正确进行运动后恢复，避免运动损伤。</p>
+                </div>
+                <div class="article-content">
+                    <p>涵盖了拉伸、营养补充、休息等关键恢复要素...</p>
+                    <div class="article-meta">
+                        <span>阅读时间: 4分钟</span>
+                        <span>2026-02-28</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="article-card">
+                <div class="article-header">
+                    <h3 class="article-title">心理健康自测方法</h3>
+                    <p>学会识别自己的心理状态，及时寻求帮助。</p>
+                </div>
+                <div class="article-content">
+                    <p>提供了简单易行的心理健康评估工具和改善建议...</p>
+                    <div class="article-meta">
+                        <span>阅读时间: 6分钟</span>
+                        <span>2026-02-22</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
+
+

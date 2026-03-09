@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>仙鹤大叔张文鹤的宝藏 - 视频作品</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .videos-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 2rem; }
+        .video-card { background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .video-thumbnail { height: 180px; background: #e8f5e9; display: flex; align-items: center; justify-content: center; color: #4CAF50; font-size: 3rem; }
+        .video-info { padding: 1.5rem; }
+        .video-info h3 { margin-bottom: 0.5rem; color: #2E7D32; }
+        .video-meta { display: flex; justify-content: space-between; color: #666; font-size: 0.9rem; margin-top: 1rem; }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <a href="../index.html" class="logo">仙鹤大叔</a>
+            <ul class="nav-menu">
+                <li><a href="../index.html#hero">首页</a></li>
+                <li><a href="../index.html#categories">作品分类</a></li>
+                <li><a href="#">视频作品</a></li>
+                <li><a href="articles.html">科普文章</a></li>
+                <li><a href="../index.html#about">关于我</a></li>
+            </ul>
+            <form class="search-box">
+                <input type="text" class="search-input" placeholder="搜索视频...">
+                <button type="submit" class="search-btn"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </nav>
+
+    <section class="container" style="padding: 3rem 0;">
+        <h1 style="text-align: center; color: #2E7D32; margin-bottom: 2rem;">我的视频作品</h1>
+        
+        <div class="videos-grid">
+            <div class="video-card">
+                <div class="video-thumbnail">
+                    视频缩略图
+                </div>
+                <div class="video-info">
+                    <h3>科学饮食指南</h3>
+                    <p>了解如何制定健康的饮食计划，掌握营养搭配的基本原则。</p>
+                    <div class="video-meta">
+                        <span>15分钟</span>
+                        <span>2026-03-01</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-card">
+                <div class="video-thumbnail">
+                    视频缩略图
+                </div>
+                <div class="video-info">
+                    <h3>办公室健身操</h3>
+                    <p>适合上班族的简单健身动作，缓解久坐带来的身体不适。</p>
+                    <div class="video-meta">
+                        <span>10分钟</span>
+                        <span>2026-02-25</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-card">
+                <div class="video-thumbnail">
+                    视频缩略图
+                </div>
+                <div class="video-info">
+                    <h3>压力管理技巧</h3>
+                    <p>学习有效的压力管理方法，保持良好的心理状态。</p>
+                    <div class="video-meta">
+                        <span>12分钟</span>
+                        <span>2026-02-20</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
+
+
